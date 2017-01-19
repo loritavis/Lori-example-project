@@ -6,7 +6,6 @@ function [topModels, topModelsWithChildren] = find_top_models()
 %
 %   [topModels, topModelsWithChildren] = find_top_models()
 
-%   Copyright 2016 The MathWorks, Inc.
 
 project = simulinkproject;
 fileDependencyGraph = project.Dependencies.Graph;
