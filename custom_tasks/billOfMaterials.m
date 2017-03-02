@@ -1,5 +1,5 @@
 function result = billOfMaterials(file)
-%billOfMaterials   Simulink Project custom task for generating a "bill of
+%billOfMaterizxcvzxcvals   Simulink Project custom task for generating a "bill of
 %materials" report. This report includes an MD5 checksum for each file in
 %the project, together with revision information.
 %
