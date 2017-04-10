@@ -1,0 +1,130 @@
+<deployment-project plugin="plugin.toolbox" plugin-version="1.0">
+  <configuration file="C:\Users\ltavis\MATLAB\Projects\slexamples\airframe11\Simulink Project Airframe Example.prj" location="C:\Users\ltavis\MATLAB\Projects\slexamples\airframe11" name="Simulink Project Airframe Example" target="target.toolbox" target-name="Package Toolbox">
+    <param.appname>Simulink Project Airframe Example</param.appname>
+    <param.authnamewatermark>ltavis</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description>This example project uses the Simple Project template to configure where generated code is placed (slprj folder location).
+
+Click on "Shortcuts" to find ways of getting started with this project.</param.description>
+    <param.screenshot />
+    <param.version>1.0</param.version>
+    <param.output>${PROJECT_ROOT}\Simulink Project Airframe Example.mltbx</param.output>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.guid />
+    <param.exclude.filters>.SimulinkProject
+_SimulinkProject
+*.prj
+**\.git
+lib\timesthree.mexw64
+New Text Document.txt
+Simulink Project Airframe Example.prj
+work</param.exclude.filters>
+    <param.examples />
+    <param.demosxml />
+    <param.apps />
+    <param.docs />
+    <param.matlabpath.excludes />
+    <param.javaclasspath.excludes />
+    <unset>
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.screenshot />
+      <param.version />
+      <param.output />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.guid />
+      <param.examples />
+      <param.demosxml />
+      <param.apps />
+      <param.docs />
+      <param.matlabpath.excludes />
+      <param.javaclasspath.excludes />
+    </unset>
+    <fileset.rootdir>
+      <file>C:\Users\ltavis\MATLAB\Projects\slexamples\airframe11</file>
+    </fileset.rootdir>
+    <fileset.rootfiles>
+      <file>${PROJECT_ROOT}\.git</file>
+      <file>${PROJECT_ROOT}\.gitattributes</file>
+      <file>${PROJECT_ROOT}\.SimulinkProject</file>
+      <file>${PROJECT_ROOT}\custom_tasks</file>
+      <file>${PROJECT_ROOT}\data</file>
+      <file>${PROJECT_ROOT}\lib</file>
+      <file>${PROJECT_ROOT}\models</file>
+      <file>${PROJECT_ROOT}\New Text Document.txt</file>
+      <file>${PROJECT_ROOT}\reports</file>
+      <file>${PROJECT_ROOT}\Simulink Project Airframe Example.prj</file>
+      <file>${PROJECT_ROOT}\SimulinkProjectAirframeExample.prj</file>
+      <file>${PROJECT_ROOT}\src</file>
+      <file>${PROJECT_ROOT}\tests</file>
+      <file>${PROJECT_ROOT}\utilities</file>
+      <file>${PROJECT_ROOT}\work</file>
+    </fileset.rootfiles>
+    <fileset.depfun.included />
+    <fileset.depfun.excluded />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\ltavis\MATLAB\Projects\slexamples\airframe11" name="Simulink Project Airframe Example.mltbx" optional="false">C:\Users\ltavis\MATLAB\Projects\slexamples\airframe11\Simulink Project Airframe Example.mltbx</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>B:\35\ltavis.FolderToolstrip\matlab</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.2</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
